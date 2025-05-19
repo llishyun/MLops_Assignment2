@@ -1,0 +1,167 @@
+{
+    "columns": [
+        "age_upon_outcome",
+        "date_of_birth",
+        "sex_upon_outcome",
+        "age_upon_outcome_(days)",
+        "age_upon_outcome_(years)",
+        "age_upon_outcome_age_group",
+        "outcome_month",
+        "outcome_year",
+        "outcome_weekday",
+        "outcome_hour",
+        "outcome_number",
+        "dob_year",
+        "dob_month",
+        "dob_monthyear",
+        "age_upon_intake",
+        "animal_type",
+        "breed",
+        "color",
+        "found_location",
+        "intake_condition",
+        "intake_type",
+        "sex_upon_intake",
+        "count",
+        "age_upon_intake_(days)",
+        "age_upon_intake_(years)",
+        "age_upon_intake_age_group",
+        "intake_datetime",
+        "intake_month",
+        "intake_year",
+        "intake_monthyear",
+        "intake_weekday",
+        "intake_hour",
+        "intake_number",
+        "time_in_shelter_days"
+    ],
+    "rows": 63737,
+    "cols": 34,
+    "target_is_numeric": true,
+    "columns_info": {
+        "age_upon_outcome": [
+            "categorical",
+            "many_categories"
+        ],
+        "date_of_birth": [
+            "categorical",
+            "many_categories"
+        ],
+        "sex_upon_outcome": [
+            "categorical",
+            "few_categories"
+        ],
+        "age_upon_outcome_(days)": [
+            "scale"
+        ],
+        "age_upon_outcome_(years)": [
+            "scale"
+        ],
+        "age_upon_outcome_age_group": [
+            "categorical",
+            "few_categories"
+        ],
+        "outcome_month": [
+            "scale"
+        ],
+        "outcome_year": [
+            "scale"
+        ],
+        "outcome_weekday": [
+            "categorical",
+            "few_categories"
+        ],
+        "outcome_hour": [
+            "scale"
+        ],
+        "outcome_number": [
+            "scale"
+        ],
+        "dob_year": [
+            "scale"
+        ],
+        "dob_month": [
+            "scale"
+        ],
+        "dob_monthyear": [
+            "categorical",
+            "many_categories"
+        ],
+        "age_upon_intake": [
+            "categorical",
+            "many_categories"
+        ],
+        "animal_type": [
+            "categorical",
+            "few_categories"
+        ],
+        "breed": [
+            "categorical",
+            "many_categories"
+        ],
+        "color": [
+            "categorical",
+            "many_categories"
+        ],
+        "found_location": [
+            "categorical",
+            "many_categories"
+        ],
+        "intake_condition": [
+            "categorical",
+            "few_categories"
+        ],
+        "intake_type": [
+            "categorical",
+            "few_categories"
+        ],
+        "sex_upon_intake": [
+            "categorical",
+            "few_categories"
+        ],
+        "count": [
+            "constant_column"
+        ],
+        "age_upon_intake_(days)": [
+            "scale"
+        ],
+        "age_upon_intake_(years)": [
+            "scale"
+        ],
+        "age_upon_intake_age_group": [
+            "categorical",
+            "few_categories"
+        ],
+        "intake_datetime": [
+            "text_transform"
+        ],
+        "intake_month": [
+            "scale"
+        ],
+        "intake_year": [
+            "scale"
+        ],
+        "intake_monthyear": [
+            "categorical",
+            "many_categories"
+        ],
+        "intake_weekday": [
+            "categorical",
+            "few_categories"
+        ],
+        "intake_hour": [
+            "scale"
+        ],
+        "intake_number": [
+            "scale"
+        ],
+        "time_in_shelter_days": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 34,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false,
+    "n_classes": 2
+}

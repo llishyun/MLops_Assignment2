@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "time_in_shelter_days",
+            "feature2": "outcome_hour",
+            "operation": "multiply",
+            "score": 0.495805633
+        },
+        {
+            "feature1": "time_in_shelter_days",
+            "feature2": "outcome_hour",
+            "operation": "sum",
+            "score": 0.5164694693
+        },
+        {
+            "feature1": "time_in_shelter_days",
+            "feature2": "outcome_hour",
+            "operation": "ratio",
+            "score": 0.517119619
+        },
+        {
+            "feature1": "outcome_hour",
+            "feature2": "time_in_shelter_days",
+            "operation": "ratio",
+            "score": 0.517609606
+        },
+        {
+            "feature1": "time_in_shelter_days",
+            "feature2": "intake_number",
+            "operation": "multiply",
+            "score": 0.5230870789
+        },
+        {
+            "feature1": "time_in_shelter_days",
+            "feature2": "outcome_number",
+            "operation": "multiply",
+            "score": 0.5230870789
+        },
+        {
+            "feature1": "outcome_number",
+            "feature2": "time_in_shelter_days",
+            "operation": "ratio",
+            "score": 0.5369057149
+        },
+        {
+            "feature1": "intake_number",
+            "feature2": "time_in_shelter_days",
+            "operation": "ratio",
+            "score": 0.5369057149
+        },
+        {
+            "feature1": "time_in_shelter_days",
+            "feature2": "intake_number",
+            "operation": "ratio",
+            "score": 0.5372136874
+        },
+        {
+            "feature1": "time_in_shelter_days",
+            "feature2": "outcome_number",
+            "operation": "ratio",
+            "score": 0.5372136874
+        }
+    ],
+    "new_columns": [
+        "time_in_shelter_days_multiply_outcome_hour",
+        "time_in_shelter_days_sum_outcome_hour",
+        "time_in_shelter_days_ratio_outcome_hour",
+        "outcome_hour_ratio_time_in_shelter_days",
+        "time_in_shelter_days_multiply_intake_number",
+        "time_in_shelter_days_multiply_outcome_number",
+        "outcome_number_ratio_time_in_shelter_days",
+        "intake_number_ratio_time_in_shelter_days",
+        "time_in_shelter_days_ratio_intake_number",
+        "time_in_shelter_days_ratio_outcome_number"
+    ],
+    "ml_task": "binary_classification"
+}

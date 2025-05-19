@@ -1,0 +1,105 @@
+{
+    "name": "Ensemble",
+    "ml_task": "binary_classification",
+    "optimize_metric": "f1",
+    "selected_models": [
+        {
+            "model": "13_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "16_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "17_CatBoost",
+            "repeat": 5.0
+        },
+        {
+            "model": "18_CatBoost",
+            "repeat": 2.0
+        },
+        {
+            "model": "18_CatBoost_GoldenFeatures",
+            "repeat": 1.0
+        },
+        {
+            "model": "19_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "19_CatBoost_GoldenFeatures",
+            "repeat": 3.0
+        },
+        {
+            "model": "20_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "21_CatBoost",
+            "repeat": 4.0
+        },
+        {
+            "model": "23_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "23_CatBoost_KMeansFeatures",
+            "repeat": 5.0
+        },
+        {
+            "model": "24_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "27_RandomForest",
+            "repeat": 1.0
+        },
+        {
+            "model": "34_CatBoost",
+            "repeat": 2.0
+        },
+        {
+            "model": "35_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "42_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "49_CatBoost",
+            "repeat": 4.0
+        },
+        {
+            "model": "50_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "51_CatBoost",
+            "repeat": 3.0
+        },
+        {
+            "model": "53_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "56_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "5_Default_CatBoost",
+            "repeat": 4.0
+        },
+        {
+            "model": "7_Xgboost_categorical_mix",
+            "repeat": 3.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "f1",
+    "final_loss": -0.8841761827079935,
+    "train_time": 6.264020919799805,
+    "is_stacked": false,
+    "threshold": 0.49316144630335834
+}
